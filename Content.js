@@ -228,6 +228,10 @@ const generateSTYLES = () => {
       margin-left: -1000px;
     }
   }
+  .main{
+    width:200px;
+    height:200px;
+  }
    </style>`;
 };
 
@@ -279,5 +283,9 @@ switch (window.location.hostname) {
   case "www.linkedin.com":
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("LINKEDIN");
+    break;
+   case "www.guthub.com":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("GITHUB");
     break;
 }
