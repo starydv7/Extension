@@ -11,11 +11,15 @@
   "icons": { "48": "icon48.png", "128": "icon128.png" },
   "browser_action": {
     "default_popup": "Popup.html",
-    "default_title": "Procrastination Blocker"
+    "default_title": "Add Blocker"
   },
   "permissions": [
     "https://www.youtube.com/*",
     "https://www.facebook.com/*",
-    "https://www.netflix.com/*"
+    "https://www.netflix.com/*",
+    "https://www.spotify.com/*",
+    "https://www.masaischool.com/*",
+    "https://discord.com/",
+    "https://www.roblox.com/"
   ]
 }
