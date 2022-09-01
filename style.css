@@ -92,9 +92,9 @@ hr:after {
   width: 350px;
   height: 120px;
 
-  background: #fff;
+  background: rgb(152, 133, 133);
   background: linear-gradient(top, #fff 100%);
-  background: -webkit-linear-gradient(top, #fff 100%);
+  background: -webkit-linear-gradient(top, rgb(71, 70, 70) 100%);
   background: -moz-linear-gradient(top, #fff 100%);
   background: -ms-linear-gradient(top, #fff 100%);
   background: -o-linear-gradient(top, #fff 100%);
