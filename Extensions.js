@@ -2,7 +2,7 @@ const generateSTYLES = () => {
   return `<style>@import url(https://fonts.googleapis.com/css?family=opensans:500);
   body {
     background: #33cc99;
-    color: #fff;
+    color:#0f7dae ;
     font-family: "Open Sans", sans-serif;
     max-height: 700px;
     overflow: hidden;
@@ -19,8 +19,8 @@ const generateSTYLES = () => {
     position: relative;
     display: inline-block;
     z-index: 2;
-    height: 250px;
-    letter-spacing: 15px;
+    height: 180px;
+    letter-spacing: 18px;
   }
   ._1 {
     text-align: center;
@@ -37,7 +37,7 @@ const generateSTYLES = () => {
     font-size: 20px;
   }
   .text {
-    font-size: 70px;
+    font-size: 90px;
     text-align: center;
     position: relative;
     display: inline-block;
@@ -228,6 +228,10 @@ const generateSTYLES = () => {
       margin-left: -1000px;
     }
   }
+  .main{
+    width:200px;
+    height:200px;
+  }
    </style>`;
 };
 
@@ -264,10 +268,6 @@ switch (window.location.hostname) {
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("NETFLIX");
     break;
-  case "www.roblox.com":
-    document.head.innerHTML = generateSTYLES();
-    document.body.innerHTML = generateHTML("ROBLOX");
-    break;
   case "discord.com":
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("DISCORD");
@@ -279,5 +279,13 @@ switch (window.location.hostname) {
     case "www.masaischool.com":
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("MASAI");
+    break;
+  case "www.linkedin.com":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("LINKEDIN");
+    break;
+   case "www.github.com":
+    document.head.innerHTML = generateSTYLES();
+    document.body.innerHTML = generateHTML("GITHUB");
     break;
 }

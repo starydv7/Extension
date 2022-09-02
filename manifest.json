@@ -1,12 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "AddBlocker",
-  "description":"This extension usefull for those who want save time from most used web sites",
+  "name": "Add Blocker",
   "version": "0.1.1",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["Content.js"]
+      "js": ["Extensions.js"]
     }
   ],
   "icons": { "48": "icon48.png", "128": "icon128.png" },
