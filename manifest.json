@@ -2,6 +2,7 @@
   "manifest_version": 2,
   "name": "SiteBlocker",
   "version": "0.1.1",
+  "description":"It blocks social media websites like Youtube,Facebook and many other",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
@@ -11,14 +12,14 @@
   "icons": { "48": "icon48.png", "128": "icon128.png" },
   "browser_action": {
     "default_popup": "Popup.html",
-    "default_title": "SiteBlocker"
+    "default_title": "Site Blocker"
   },
   "permissions": [
     "https://www.youtube.com/*",
     "https://www.facebook.com/*",
     "https://www.netflix.com/*",
     "https://www.spotify.com/*",
-    "https://www.masaischool.com/*",
+    "https://www.reddit.com/",
     "https://discord.com/*",
     "https://github.com/*",
     "https://linkedin.com/*"
