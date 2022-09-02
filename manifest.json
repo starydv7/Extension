@@ -1,6 +1,7 @@
 {
   "manifest_version": 2,
   "name": "AddBlocker",
+  "description":"This extension usefull for those who want save time from most used web sites",
   "version": "0.1.1",
   "content_scripts": [
     {
