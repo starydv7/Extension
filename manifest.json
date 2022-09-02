@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "SiteBlocker",
+  "name": "Add Blocker",
   "version": "0.1.1",
   "description":"It blocks social media websites like Youtube,Facebook and many other",
   "content_scripts": [
@@ -12,7 +12,11 @@
   "icons": { "48": "icon48.png", "128": "icon128.png" },
   "browser_action": {
     "default_popup": "Popup.html",
+
     "default_title": "Site Blocker"
+
+   
+
   },
   "permissions": [
     "https://www.youtube.com/*",
@@ -22,7 +26,12 @@
     "https://www.reddit.com/",
     "https://discord.com/*",
     "https://github.com/*",
-    "https://linkedin.com/*"
+    "https://linkedin.com/*",
     
+
+ 
+    "https://discord.com/",
+    "https://www.roblox.com/"
+
   ]
 }

@@ -6,4 +6,4 @@ setInterval(function ()
  {
   document.getElementById("seconds").innerHTML = pad(++sec % 60);
   document.getElementById("minutes").innerHTML = pad(parseInt(sec / 60, 10));
-}, 100);
+}, 1000);
