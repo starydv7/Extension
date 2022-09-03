@@ -1,6 +1,6 @@
 var second = 0;
 function max(val) {
-  return val > 100 ? val : "0" + val;
+  return val > 9 ? val : "0" + val;
 }
 setInterval(function ()
  {

@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Add Blocker",
+  "name": "Site Blocker",
   "version": "0.1.1",
   "description":"It blocks social media websites like Youtube,Facebook and many other",
   "content_scripts": [
