@@ -31,6 +31,6 @@ Html, JavaScript, Css, Fontawesome, GitHub, Chrome
 
 # Uses:
 1)Block websites which you don't want to run in your browser;
-![image](chrome-extension://mcbpblocgmgfnpjjppndjkmgjaogfceg/fsCaptured.html)
+![image](chrome-extension://mcbpblocgmgfnpjjppndjkmgjaogfceg/fsCaptured.png)
 
 
