@@ -7,14 +7,14 @@ const styles = () => {
     max-height: 700px;
     overflow: hidden;
   }
-  .c {
+  .con {
     text-align: center;
     display: block;
     position: relative;
     width: 80%;
     margin: 100px auto;
   }
-  ._404 {
+  .err {
     font-size: 50px;
     position: relative;
     display: inline-block;
@@ -22,7 +22,7 @@ const styles = () => {
     height: 100px;
     letter-spacing: 2px;
   }
-  ._1 {
+  .fir {
     text-align: center;
     display: block;
     position: relative;
@@ -30,7 +30,7 @@ const styles = () => {
     font-size: 4em;
     line-height: 80%;
   }
-  ._2 {
+  .sec {
     text-align: center;
     display: block;
     position: relative;
@@ -61,10 +61,10 @@ const styles = () => {
    </style>`;
 };
 
-const generateHTML = (pageName) => {
+const newHTML = (pageName) => {
   return `
    
-   <div id="clouds">
+   <div id="new">
       <div ></div>
       <div></div>
       <div ></div>
@@ -72,11 +72,11 @@ const generateHTML = (pageName) => {
       <div ></div>
       <div ></div>
   </div>
-  <div class='c'>
-      <div class='_404'>404 source not found</div>
+  <div class='con'>
+      <div class='err'>404 source not found</div>
     
-      <div class='_1'>Page has been blocked</div>
-      <div class='_2'>Unblock ${pageName} to access</div>
+      <div class='fir'>Page has been blocked</div>
+      <div class='sec'>Unblock ${pageName} to access</div>
   </div>
    `;
 };
@@ -85,34 +85,36 @@ switch (window.location.hostname)
 {
   case "www.youtube.com":
     document.head.innerHTML = styles();
-    document.body.innerHTML = generateHTML("YOUTUBE");
+    document.body.innerHTML = newHTML("YOUTUBE");
     break;
   case "www.facebook.com":
     document.head.innerHTML = styles();
-    document.body.innerHTML = generateHTML("FACEBOOK");
+    document.body.innerHTML = newHTML("FACEBOOK");
     break;
   case "www.netflix.com":
     document.head.innerHTML = styles();
-    document.body.innerHTML = generateHTML("NETFLIX");
+    document.body.innerHTML = newHTML("NETFLIX");
     break;
   case "discord.com":
     document.head.innerHTML = styles();
-    document.body.innerHTML = generateHTML("DISCORD");
+    document.body.innerHTML = newHTML("DISCORD");
     break;
   case "www.spotify.com":
     document.head.innerHTML = styles();
-    document.body.innerHTML = generateHTML("SPOTIFY");
+    document.body.innerHTML = newHTML("SPOTIFY");
     break;
     case "www.reddit.com":
     document.head.innerHTML = styles();
-    document.body.innerHTML = generateHTML("Reddit");
+    document.body.innerHTML = newHTML("Reddit");
     break;
   case "www.linkedin.com":
     document.head.innerHTML = styles();
-    document.body.innerHTML = generateHTML("LINKEDIN");
+    document.body.innerHTML = newHTML("LINKEDIN");
     break;
    case "www.github.com":
     document.head.innerHTML = styles();
-    document.body.innerHTML = generateHTML("GITHUB");
+    document.body.innerHTML = newHTML("GITHUB");
     break;
 }
+
+
